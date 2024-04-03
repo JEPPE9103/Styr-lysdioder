@@ -1,6 +1,8 @@
-# Styr-lysdioder
-Detta repository innehåller deluppgift 1, Styr lysdioder 
-Beskrivning
+# Styr lysdioder
 
-Detta projekt styr en lysdiod (LED) med en knapptryckning. 
-I stället för att använda standardbibliotek för knapptryck och LED-styrning, konfigureras GPIO-pinnarna direkt med hårdvaruregister.
+Detta repository innehåller exempelkod för att styra en lysdiod med en knapp via hårdvaruregister på en Arduino-kompatibel enhet. 
+Koden är avsedd för nybörjare som vill lära sig om GPIO-hantering och registerprogrammering.
+
+## Innehåll:
+
+- main.c: Huvudfil med kod för att styra lysdioden och läsa knappen.
